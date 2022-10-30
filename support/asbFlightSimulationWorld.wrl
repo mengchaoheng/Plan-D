@@ -1,0 +1,310 @@
+#VRML V2.0 utf8
+# Copyright 2017 The MathWorks, Inc.
+
+DEF QuadBody Transform {
+  children [
+    DEF Quad Transform {
+      children [
+        DEF ArmI Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0 0.2 0.8
+              }
+            }
+            geometry DEF Arm1 Box {
+              size 20 1 1
+            }
+          }
+        }
+        DEF Arm2 Transform {
+          rotation 0 1 0 1.57
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0 0.2 0.8
+              }
+            }
+            geometry Box {
+              size 20 1 1
+            }
+          }
+        }
+        DEF Motor1 Transform {
+          translation 10 0 0
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0 0.8 0
+              }
+            }
+            geometry Cylinder {
+              height 4
+            }
+          }
+        }
+        DEF Motor2 Transform {
+          translation -10 0 0
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0 0.8 0
+              }
+            }
+            geometry Cylinder {
+              height 4
+            }
+          }
+        }
+        DEF Motor3 Transform {
+          translation 0 0 10
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0 0.8 0
+              }
+            }
+            geometry Cylinder {
+              height 4
+            }
+          }
+        }
+        DEF Motor4 Transform {
+          translation 0 0 -10
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0 0.8 0
+              }
+            }
+            geometry Cylinder {
+              height 4
+            }
+          }
+        }
+        DEF Rotor1 Transform {
+          translation 10 2 0
+          children Shape {
+            appearance Appearance {
+              material Material {
+                transparency 0.4
+                diffuseColor 0.6 0.8 1
+              }
+            }
+            geometry Cylinder {
+              radius 5
+              height 0.5
+            }
+          }
+        }
+        DEF Rotor3 Transform {
+          translation -10 2 0
+          children Shape {
+            appearance Appearance {
+              material Material {
+                transparency 0.4
+                diffuseColor 0.6 0.8 1
+              }
+            }
+            geometry Cylinder {
+              radius 5
+              height 0.5
+            }
+          }
+        }
+        DEF Rotor4 Transform {
+          translation 0 2 10
+          children Shape {
+            appearance Appearance {
+              material Material {
+                transparency 0.4
+                diffuseColor 0.6 0 0.2
+              }
+            }
+            geometry Cylinder {
+              radius 5
+              height 0.5
+            }
+          }
+        }
+        DEF Rotor2 Transform {
+          translation 0 2 -10
+          children Shape {
+            appearance Appearance {
+              material Material {
+                transparency 0.4
+                diffuseColor 0.6 0 0.2
+              }
+            }
+            geometry Cylinder {
+              radius 5
+              height 0.5
+            }
+          }
+        }
+        DEF CGBall Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 0 0.4
+              }
+            }
+            geometry DEF CG Sphere {
+              radius 1.5
+            }
+          }
+        }
+        DEF XAxis Transform {
+          translation 14 0 0
+          rotation 0 0 1 1.57
+          children [
+            Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 1 0 1
+                }
+              }
+              geometry Cylinder {
+                radius 0.4
+                height 5
+              }
+            }
+            Transform {
+              translation 0 -3 0
+              rotation 0 0 1 3.14
+              children Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 1 0 1
+                  }
+                }
+                geometry Cone {
+                }
+              }
+            }
+            Transform {
+              translation 0 -5 0
+              scale 1.5 1.5 1.5
+              rotation 0 0 1 1.57
+              children Text {
+                length 10
+                string "X" 
+              }
+            }
+          ]
+        }
+        DEF YAxis Transform {
+          translation 0 0 14
+          rotation 1 0 0 -1.57
+          children [
+            Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 1 0 1
+                }
+              }
+              geometry Cylinder {
+                radius 0.4
+                height 5
+              }
+            }
+            Transform {
+              translation 0 -3 0
+              rotation 0 0 1 3.14
+              children Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 1 0 1
+                  }
+                }
+                geometry Cone {
+                }
+              }
+            }
+            Transform {
+              rotation 0 1 0 1.57
+              children Transform {
+                translation 0 -5 0
+                scale 1.5 1.5 1.5
+                rotation 0 0 1 1.57
+                children Text {
+                  length 10
+                  string "Y" 
+                }
+              }
+            }
+          ]
+        }
+        DEF ZAxis Transform {
+          translation 0 -4.5 0
+          children [
+            Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 1 0 1
+                }
+              }
+              geometry Cylinder {
+                radius 0.4
+                height 5
+              }
+            }
+            Transform {
+              translation 0 -3 0
+              rotation 0 0 1 3.14
+              children Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 1 0 1
+                  }
+                }
+                geometry Cone {
+                }
+              }
+            }
+            Transform {
+              translation 0 -5 0
+              scale 1.5 1.5 1.5
+              children Text {
+                length 10
+                string "Z" 
+              }
+            }
+          ]
+        }
+      ]
+    }
+    Appearance {
+      material Material {
+        diffuseColor 1 1 1
+      }
+    }
+    DEF QuadcopterIsometric Viewpoint {
+      description "Quadcopter Isometric"
+      position 60.0197 33.4079 78.2844
+      orientation -0.229916 0.965852 0.119451 0.670551
+      fieldOfView 0.785398
+    }
+  ]
+}
+DEF Light DirectionalLight {
+  direction 0 -1 0
+}
+DEF Background Transform {
+  children Background {
+    skyColor [
+      0.76238 0.8 0.1427,
+      0.277798 0.219779 0.7,
+      0.222549 0.390234 0.7,
+      0.60094 0.662637 0.69 
+    ]
+    skyAngle [0.1, 1.2, 1.57]
+    groundColor [
+      0 0.8 0,
+      0.174249 0.82 0.187362,
+      0.467223 0.82 0.445801,
+      0.621997 0.67 0.600279 
+    ]
+    groundAngle [0.9, 1.5, 1.57]
+  }
+}
