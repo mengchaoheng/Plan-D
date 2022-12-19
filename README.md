@@ -56,7 +56,7 @@ The measurement and theoretical calculation results of the altitude velocity V_z
 
 ## Getting Started
 
-This project is developed under Windows with the help of MATLAB. To run this project, only simple operations are required. The uav routine that comes with Matlab is also organized in a similar way. Through this project, you can understand MATLAB's Simulink Aerospace blockset, matlab Project Management
+This project is developed with the help of MATLAB. To run this project, only simple operations are required. The uav routine that comes with Matlab is also organized in a similar way. Through this project, you can understand MATLAB's Simulink Aerospace blockset, matlab Project Management
 and source code management in git and Simulink projects.
 
 ### Prerequisites

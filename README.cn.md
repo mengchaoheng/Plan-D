@@ -56,7 +56,7 @@ Z_b轴方向加速度dot{\omega}的测量与理论计算结果如下图所示。
 
 ## 快速开始
 
-本项目在Windows下借助MATLAB进行开发，要运行这个工程，只需要简单的操作。Matlab自带的uav例程也是类似的组织方式。通过这个工程可以了解MATLAB的Simulink Aerospace blockset、matlab Project Management
+本项目借助MATLAB进行开发，要运行这个工程，只需要简单的操作。Matlab自带的uav例程也是类似的组织方式。通过这个工程可以了解MATLAB的Simulink Aerospace blockset、matlab Project Management
 以及git和Simulink工程中的源代码管理。
 
 ### 先决条件
