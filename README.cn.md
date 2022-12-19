@@ -1,12 +1,12 @@
 # Ducted-Fan-UAV-Simulation
 
-<div id="sidebar"><a href="./README.en.md" target="_blank"><font color=#0000FF size=5px >[ENGLISH]<font></center><a></div>
+<div id="sidebar"><a href="./README.cn.md" target="_blank"><font color=#0000FF size=5px >[ENGLISH]<font></center><a></div>
 
 
 <img src="./support/control_diagram.jpeg" width="640" height="480" />
 
 这是一个关于涵道风扇式无人机(Ducted Fan UAV)的MATLAB & Simulink仿真，始于2019-4-21。
-他的特点是为冗余配置操纵面的无人机提供一个控制系统框架，该框架包括了控制分配环节、一个ADRC控制器、以及一个状态估计器（未完善）。借助Simulink Coder，本仿真的算法已经在实际的飞机上运行并取得预期效果。
+该仿真的特点是为冗余配置操纵面的无人机（如Ducted Fan UAV）提供一个控制系统框架，该框架包括了控制分配环节、一个ADRC控制器、以及一个状态估计器（未完善）。借助Simulink Coder，本仿真的算法已经在实际的飞机上运行并取得预期效果。
 
 ## 模型验证
 
