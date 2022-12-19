@@ -6,9 +6,9 @@
 <img src="./support/control_diagram.jpeg" width="90%" height="90%" />
 
 这是一个关于涵道风扇式无人机(Ducted Fan UAV)的MATLAB & Simulink仿真，始于2019-4-21。
-	
+
 该仿真的特点是为冗余配置操纵面的无人机（如Ducted Fan UAV）提供一个控制系统框架，该框架包括了控制分配环节、一个ADRC控制器、以及一个状态估计器（未完善）。
-	
+
 借助Simulink Coder，本仿真的算法已经在实际的飞机上运行并取得预期效果。
 
 ## 模型验证
@@ -16,9 +16,9 @@
 <img src="./support/frame.png" width="50%" height="50%" />
 
 为考察模型的准确性，采用实际飞行试验与理论模型对比的方法验证，具体包括，在实际飞行试验中，通过给系统一输入信号，对比实际检测的状态响应与理论计算的状态响应。
-	
+
 在实际飞行操作中，直接通过控制舵面的偏角来控制飞行是十分困难的。考虑到飞行安全，在飞行器p、q、r、a_z四个通道各串联一PI控制器，对闭环系统进行验证。此时系统输入变为p、q、r、a_z的参考输入。
-	
+
 在下文的验证对比图中，统一用黑色曲线表示参考输入，蓝色曲线表示状态的实际测量，红色曲线表示状态的理论估计。
 
 <img src="./support/FlightTest_diagram.png" width="100%" height="100%" />
@@ -64,25 +64,28 @@ Z_b轴方向加速度dot{\omega}的测量与理论计算结果如下图所示。
 需要的软件：
 
 1.MATLAB2018及以上版本。
-	
+
 2.flightgear(可选)。
-	
+
 3.git(可选)。
 
 ### Installing
 
-使用git克隆本工程到本地
+使用git克隆本工程到本地：
+
+```
+git clone https://github.com/mengchaoheng/Plan-D.git
+```
 
 ## Running the tests
 
 1.打开MATLAB,并将文件夹定位到工程所在目录。
-	
-2.双击工程根目录的PRJ文件PlanD，即可开启仿真程序。
-	
-3.在名为 flightSimulation.slx 的simulink模块中点击Run即可运行。
-	
-可以在\plan-D\utilities的startVars.m文件
-中设置启动项（设置完要运行该文件后再运行 flightSimulation.slx），选择不同的输入信号、控制器、控制分配方式等等。例如将某次飞行的输入作为仿真的参考输入，可将startVars.m文件的VSS_COMMAND设置为2，并运行startVars.m。再重新运行 flightSimulation.slx 即可（注意设置仿真时间，约等于53s）。
+
+2.双击工程根目录的PRJ文件 `PlanD.prj` ，即可开启仿真程序。
+
+3.在名为 `flightSimulation.slx` 的simulink模块中点击`Run`即可运行。
+
+可以在`\plan-D\utilities`的`startVars.m`文件中设置启动项（设置完要运行该`startVars.m`文件后再运行 `flightSimulation.slx`），选择不同的输入信号、控制器、控制分配方式等等。例如将某次飞行的输入作为仿真的参考输入，可将`startVars.m`文件的`VSS_COMMAND`设置为`2`，并运行`startVars.m`。再重新运行 `flightSimulation.slx` 即可（注意设置仿真时间，约等于53s）。
 
 
 ## Contributing
