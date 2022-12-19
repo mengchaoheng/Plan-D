@@ -9,7 +9,7 @@
 
 ## Getting Started
 
-本项目在Windows下借助MATLAB进行开发，要运行这个工程，首先要了解MATLAB的Simulink Aerospace blockset、matlab Project Management
+本项目在Windows下借助MATLAB进行开发，要运行这个工程，只需要简单的操作。Matlab自带的uav例程也是类似的组织方式。通过这个工程可以了解MATLAB的Simulink Aerospace blockset、matlab Project Management
 以及git和Simulink 工程中的源代码管理。值得一提的是Simulink 工程使用git是非常方便的，不需要命令行而是通过图形化界面就可以操作。
 
 ### Prerequisites
