@@ -1,6 +1,6 @@
 # Ducted-Fan-UAV-Simulation
 
-<div id="sidebar"><a href="./README.cn.md" target="_blank"><font color=#0000FF size=5px >[ENGLISH]<font></center><a></div>
+<div id="sidebar"><a href="./README.md" target="_blank"><font color=#0000FF size=5px >[ENGLISH]<font></center><a></div>
 
 
 <img src="./support/control_diagram.jpeg" width="640" height="480" />
