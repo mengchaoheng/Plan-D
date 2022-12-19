@@ -54,12 +54,12 @@ Z_b轴方向加速度dot{\omega}的测量与理论计算结果如下图所示。
 <img src="./support/test_high_V_z.png" width="100%" height="100%" />
 
 
-## Getting Started
+## 快速开始
 
 本项目在Windows下借助MATLAB进行开发，要运行这个工程，只需要简单的操作。Matlab自带的uav例程也是类似的组织方式。通过这个工程可以了解MATLAB的Simulink Aerospace blockset、matlab Project Management
 以及git和Simulink工程中的源代码管理。
 
-### Prerequisites
+### 先决条件
 
 需要的软件：
 
@@ -69,7 +69,7 @@ Z_b轴方向加速度dot{\omega}的测量与理论计算结果如下图所示。
 
 3.git(可选)。
 
-### Installing
+### 下载
 
 使用git克隆本工程到本地：
 
@@ -77,7 +77,7 @@ Z_b轴方向加速度dot{\omega}的测量与理论计算结果如下图所示。
 git clone https://github.com/mengchaoheng/Plan-D.git
 ```
 
-## Running the tests
+### 运行步骤
 
 1.打开MATLAB,并将文件夹定位到工程所在目录。
 

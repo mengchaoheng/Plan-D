@@ -11,7 +11,7 @@ The characteristic of this simulation is to provide a control system framework f
 
 With the help of Simulink Coder, the algorithm of this simulation has been run on the actual aircraft and achieved the desired effect.
 
-## 模型验证
+## model validation
 
 <img src="./support/frame.png" width="50%" height="50%" />
 
@@ -77,7 +77,7 @@ Use git to clone this project to the local:
 git clone https://github.com/mengchaoheng/Plan-D.git
 ```
 
-## Running the tests
+### Running the tests
 
 1. Open MATLAB, and change the matlab folder to the directory where the project is.
 
