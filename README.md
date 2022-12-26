@@ -90,6 +90,7 @@ You can set startup items in the `startVars.m` file of `\plan-D\utilities` (afte
 ## Contributing
 
 * **Meng Chao Heng** - *Initial work* - https://github.com/mengchaoheng
+* **Dr.CZH** - *modeling* 
 
 ## Versioning
 
