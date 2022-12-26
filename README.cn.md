@@ -116,7 +116,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Dr.C
 
-	*为本项目提供所有实验数据！特别是关于Ducted Fan的数学模型参数、空气动力学特性数据。
+	*为本项目提供所有实验数据！特别是关于Ducted Fan的数学模型参数、空气动力学特性数据以及建模的工作。
 
 
 
