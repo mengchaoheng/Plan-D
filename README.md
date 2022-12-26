@@ -113,7 +113,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Dr.C
 
-	*Provide all experimental data for this project! Especially the mathematical model parameters and aerodynamic characteristic data of Ducted Fan.
+	*Provide all experimental data for this project! Especially the mathematical model parameters, aerodynamic characteristic data and modeling work of Ducted Fan.
 
 
 
