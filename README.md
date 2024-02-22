@@ -11,6 +11,14 @@ The characteristic of this simulation is to provide a control system framework f
 
 With the help of Simulink Coder, the algorithm of this simulation has been run on the actual aircraft and achieved the desired effect.
 
+## About
+**Paper**: [Prioritized control allocation for ducted fan UAVs](https://hkxb.buaa.edu.cn/CN/10.7527/S1000-6893.2020.24017), MENG Chaoheng, PEI Hailong, and CHENG Zihuan.
+
+```
+MENG Chaoheng, PEI Hailong, CHENG Zihuan. Prioritized control allocation for ducted fan UAVs[J]. ACTA AERONAUTICAET ASTRONAUTICA SINICA, 2020, 41(10): 324017-324017.
+```
+If our source code is used in your academic projects, please cite our paper. Thank you!
+
 ## model validation
 
 <img src="./support/frame.png" width="50%" height="50%" />
@@ -19,7 +27,7 @@ In order to examine the accuracy of the model, the method of comparing the actua
 
 In actual flight operations, it is very difficult to control the flight directly by controlling the deflection angle of the rudder surface. Considering flight safety, a PI controller is connected in series with each of the four channels of the aircraft p, q, r, a_z to verify the closed-loop system. At this time, the system input becomes the reference input of p, q, r, a_z.
 
-In the verification comparison diagram below, the black curve represents the reference input, the blue curve represents the actual measurement of the state, and the red curve represents the theoretical estimation of the state.
+In the verification comparison diagram below, the black curve represents the reference input, the blue curve represents the actual measurement of the state, and the red curve represents the theoretical estimation of the state. The results are shown in the figure below. Our model is relatively accurate.
 
 <img src="./support/FlightTest_diagram.png" width="100%" height="100%" />
 
