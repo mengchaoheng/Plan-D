@@ -99,6 +99,8 @@ V7
 ## Authors
 
 * **蒙超恒** - *Initial work* - https://github.com/mengchaoheng
+* **Dr.C** - *建模* 
+
 
 ## License
 
@@ -112,9 +114,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 	*为本项目提供资金支持。
 
-* Dr.CZH
+* Dr.C
 
-	*为本项目提供所有实验数据！特别是关于Ducted Fan的数学模型参数、空气动力学特性数据。
+	*为本项目提供所有实验数据！特别是关于Ducted Fan的数学模型参数、空气动力学特性数据以及建模的工作。
 
 
 

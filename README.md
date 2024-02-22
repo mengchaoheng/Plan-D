@@ -90,6 +90,7 @@ You can set startup items in the `startVars.m` file of `\plan-D\utilities` (afte
 ## Contributing
 
 * **Meng Chao Heng** - *Initial work* - https://github.com/mengchaoheng
+* **Dr.C** - *modeling* 
 
 ## Versioning
 
@@ -110,9 +111,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 	*Provide financial support for this project.
 
-* Dr.CZH
+* Dr.C
 
-	*Provide all experimental data for this project! Especially the mathematical model parameters and aerodynamic characteristic data of Ducted Fan.
+	*Provide all experimental data for this project! Especially the mathematical model parameters, aerodynamic characteristic data and modeling work of Ducted Fan.
 
 
 
